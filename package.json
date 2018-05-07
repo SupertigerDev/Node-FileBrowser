@@ -1,0 +1,24 @@
+{
+  "name": "node-filebrowser",
+  "version": "1.0.0",
+  "description": "Browse files using a beautiful interface.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supertiger1234/Node-FileBrowser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supertiger1234/Node-FileBrowser/issues"
+  },
+  "homepage": "https://github.com/supertiger1234/Node-FileBrowser#readme",
+  "dependencies": {
+    "electron": "^2.0.0",
+    "electron-vibrancy": "^0.1.3",
+    "fs": "0.0.1-security"
+  }
+}
