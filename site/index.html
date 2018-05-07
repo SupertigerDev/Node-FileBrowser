@@ -1,9 +1,29 @@
 <!
 <html>
-<head>
-
-</head>
-<body>
-
-</body>
+    <head>
+        <script>delete window.module;const {ipcRenderer} = require('electron');</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/titleBarControl.js"></script>
+    </head>
+    <body>
+        <div class="winBar">
+            <div class="winBarDrag">&nbsp;File Explorer <b>BETA</b></div>
+            <div class="winBarButtons">
+                <span class="winMinBtn winBtn"></span>
+                <span class="winMaxBtn winBtn"></span>
+                <span class="winCloseBtn winBtn"></span>
+            </div>
+        </div>
+        <div class="intro">
+            <span class="title">Welcome!</span>
+            <br><br>
+            <span>Choose your theme:</span>
+            <br><br>
+            <div class="themeList"></div>
+        </div>
+    </body>
 </html>

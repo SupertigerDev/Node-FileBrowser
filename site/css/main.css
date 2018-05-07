@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255,255,255,0.31);
+    margin: 0;
+    color: rgba(0,0,0,0.51);
+}
+.winBarDrag{
+    float: left;
+    height: 30px;
+    width: calc(100% - 128px);
+    -ms-overflow-style: scrollbar;
+    -webkit-app-region: drag;
+    color: rgba(0,0,0,0.51);
+}
+.winBar{
+
+    line-height: 30px;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(139,139,139,0.25);
+}
+.winBarButtons{
+    float: right;
+    display: inline-block;
+    height: 30px;
+}
+.winMinBtn{
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    background: url("../img/minimize.png") no-repeat;
+    background-position-y: 6px;
+    background-position-x: 10px;
+    transition-duration: 0.4s;
+}
+.winCloseBtn{
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    background: url("../img/cross.png") no-repeat;
+    background-size: 30%;
+    background-position-y: 10px;
+    background-position-x: 15px;
+    transition-duration: 0.4s;
+}
+.winMaxbtn{
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    background: url("../img/max.png") no-repeat;
+    background-size: 30%;
+    background-position-y: 10px;
+    background-position-x: 15px;
+    transition-duration: 0.4s;
+}
+.winBtn:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+.winCloseBtn:hover{
+    background-color: rgba(255,0,17,0.4);
+}
+.intro{
+    padding-top: 10px;
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+}
+.themeList{
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255,255,255,0.4);
+    width: 500px;
+    height: 200px;
+}
