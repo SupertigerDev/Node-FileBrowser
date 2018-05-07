@@ -19,11 +19,27 @@
             </div>
         </div>
         <div class="intro">
-            <span class="title">Welcome!</span>
             <br><br>
-            <span>Choose your theme:</span>
-            <br><br>
-            <div class="themeList"></div>
+            <div class="themeList">
+                <span class="title">Welcome!</span>
+                <br><br>
+                <span>Choose your theme:</span>
+                <br><br>
+                <div class="blurTheme themeBox selectedThemeBox" onclick="changeTheme('blur')">
+                    <div class="themeEgLeft">
+                        <div class="themeEgRight"></div>
+                    </div>
+                    <span>Blur</span>
+                </div>
+
+                <div class="themeBox" onclick="changeTheme('plain')">
+                    <div class="themeEgLeft plainThemeLeft">
+                        <div class="themeEgRight plainThemeRight"></div>
+                    </div>
+                    <span>Plain</span>
+                </div>
+                <br><br><br>
+            </div>
         </div>
     </body>
 </html>
