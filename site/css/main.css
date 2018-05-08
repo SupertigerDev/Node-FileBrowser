@@ -3,6 +3,7 @@ body {
     background-color: rgba(255,255,255,0.31);
     margin: 0;
     color: rgba(0,0,0,0.51);
+    transition-duration: 0.4s;
 }
 .winBarDrag{
     float: left;
@@ -79,6 +80,8 @@ body {
     width: 100px;
     height: 100px;
     vertical-align: top;
+    cursor: default;
+    margin-bottom: 10px;
 }
 .selectedThemeBox{
     background-color: rgba(0,0,0,0.23);
@@ -101,4 +104,37 @@ body {
 }
 .plainThemeLeft{
     background-color: white;
+}
+.button{
+    display: inline-block;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 3px;
+    padding: 5px;
+    color: rgba(255,255,255,0.88);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+.mainFileBrowser{
+    display: none;
+}
+.fileBrowserTree{
+    display: inline-table;
+    width: 300px;
+    height: calc(100% - 30px);
+    margin-left: -4px;
+}
+.browseFiles{
+    display: inline-table;
+    width: calc(100% - 300px);
+    height: calc(100% - 30px);
+}
+.lightThemeBox{
+    background-color: white;
+}
+.darkThemeBox{
+    color: white;
+    background-color: #383838;
 }

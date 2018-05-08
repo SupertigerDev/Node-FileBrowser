@@ -4,6 +4,8 @@ var electronVibrancy = require('electron-vibrancy');
 const testFolder = 'C:/';
 const fs = require('fs');
 
+
+
 app.on('ready', ()=> {
     let win = new BrowserWindow({
         width:800,

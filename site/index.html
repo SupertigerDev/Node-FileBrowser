@@ -25,21 +25,42 @@
                 <br><br>
                 <span>Choose your theme:</span>
                 <br><br>
-                <div class="blurTheme themeBox selectedThemeBox" onclick="changeTheme('blur')">
-                    <div class="themeEgLeft">
+                <div class="blurThemeBox themeBox selectedThemeBox" onclick="changeTheme('blur')">
+                    <div class="themeEgLeft blurLeftEG">
                         <div class="themeEgRight"></div>
                     </div>
                     <span>Blur</span>
                 </div>
 
-                <div class="themeBox" onclick="changeTheme('plain')">
+                <div class="themeBox plainThemeBox" onclick="changeTheme('plain')">
                     <div class="themeEgLeft plainThemeLeft">
                         <div class="themeEgRight plainThemeRight"></div>
                     </div>
                     <span>Plain</span>
                 </div>
+                <br>
+                <div class=" themeBox  selectedThemeBox lightThemeBox" onclick="changeColour('light')">
+                    <div class="lightEG"></div>
+                    <span>Light</span>
+                </div>
+                <div class="themeBox darkThemeBox" onclick="changeColour('dark')">
+                    <div class="darkEG"></div>
+                    <span>Dark</span>
+                </div>
+
+
                 <br><br><br>
+                <div class="button" onclick="startButton();">Start</div><br><br>
+            </div>
+        </div>
+        <div class="mainFileBrowser">
+            <div class="fileBrowserTree">
+                <br>
+            </div>
+            <div class="browseFiles">
+<br>
             </div>
         </div>
     </body>
+<script src="js/main.js"></script>
 </html>
